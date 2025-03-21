@@ -1,0 +1,183 @@
+/* Corps de la page */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f5f5f5; /* Couleur Materialize */
+    color: #212121; /* Couleur Materialize */
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #0277bd; /* Couleur primaire Materialize */
+    color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header nav a {
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #01579b; /* Couleur Materialize */
+}
+
+/* Sections */
+section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0277bd; /* Couleur Materialize */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section p {
+    font-size: 1rem;
+    color: #424242; /* Couleur Materialize */
+    text-align: center;
+}
+
+/* Boutons */
+.btn-primary {
+    background-color: #007bff; /* Couleur Bootstrap */
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Couleur Bootstrap */
+    border: none;
+}
+
+.btn-info {
+    background-color: #0288d1; /* Couleur Materialize */
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffb300; /* Couleur Materialize */
+    border: none;
+}
+
+.btn-danger {
+    background-color: #d32f2f; /* Couleur Materialize */
+    border: none;
+}
+
+.btn {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Formulaires */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group label {
+    font-weight: bold;
+    color: #424242; /* Couleur Materialize */
+}
+
+form .form-control {
+    border: 1px solid #bdbdbd; /* Couleur Materialize */
+    border-radius: 4px;
+    padding: 10px;
+}
+
+/* Tableaux */
+table {
+    background-color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th {
+    background-color: #0288d1; /* Couleur Materialize */
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #e0e0e0; /* Couleur Materialize */
+    text-align: left;
+}
+
+table .btn-sm {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Cartes */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card .btn {
+    margin-top: 10px;
+}
+
+/* Notes et textes */
+.text-muted {
+    font-size: 0.9rem;
+    color: #757575; /* Couleur Materialize */
+}
+
+/* Icônes */
+i {
+    margin-right: 5px;
+}
