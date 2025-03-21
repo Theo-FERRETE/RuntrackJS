@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendrier</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center"><i class="fas fa-calendar-alt"></i> Calendrier</h2>
+        <p class="text-center text-muted">Sélectionnez une date pour demander une autorisation de présence.</p>
+        <form id="calendarForm" class="mt-4">
+            <div class="form-group">
+                <label for="date">Date :</label>
+                <input type="date" id="date" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-info">Demander une autorisation</button>
+        </form>
+    </div>
+    <script src="js/calendar.js"></script>
+</body>
+</html>
