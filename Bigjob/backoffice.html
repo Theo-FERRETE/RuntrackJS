@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backoffice</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center"><i class="fas fa-users"></i> Backoffice</h2>
+        <p class="text-center text-muted">Liste des demandes d'autorisation de présence.</p>
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Email</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="requestsTable">
+                <!-- Les demandes seront insérées ici dynamiquement -->
+            </tbody>
+        </table>
+    </div>
+    <script src="js/backoffice.js"></script>
+</body>
+</html>
