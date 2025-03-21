@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center"><i class="fas fa-user-plus"></i> Inscription</h2>
+        <p class="text-center text-muted">Utilisez une adresse email laplateforme.io pour vous inscrire.</p>
+        <form id="signupForm" class="mt-4">
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-secondary">S'inscrire</button>
+        </form>
+    </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>
