@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center"><i class="fas fa-user-shield"></i> Administration</h2>
+        <p class="text-muted">Gérez les droits des utilisateurs.</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Email</th>
+                    <th>Rôle</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="usersTable">
+                <!-- Les utilisateurs seront insérés ici dynamiquement -->
+            </tbody>
+        </table>
+        <button class="btn btn-danger" id="addAdmin">Ajouter un administrateur</button>
+    </div>
+    <script src="js/admin.js"></script>
+</body>
+</html>
